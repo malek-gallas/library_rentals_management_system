@@ -1,5 +1,5 @@
 # Use the official Windows Server Core image
-FROM mcr.microsoft.com/windows
+FROM mcr.microsoft.com/windows:ltsc2019
 
 # Set the working directory
 WORKDIR /app
