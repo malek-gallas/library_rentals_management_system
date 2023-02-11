@@ -29,4 +29,4 @@ RUN powershell -Command \
 RUN mingw32-make
 
 # Set the default command to run the library management system
-CMD ["./library_management_system.exe"]
+CMD ["./library_rentals_management_system.exe"]
