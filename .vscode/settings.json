@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "headers.h": "c",
+        "structs.h": "c",
+        "ncurses.h": "c"
+    }
+}
