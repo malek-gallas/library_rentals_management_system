@@ -1,4 +1,4 @@
-                                                                Library Rentals Management System
+#Library Rentals Management System
 
 This is a project description for a C programming mini-project on library management for 3rd-year students in Computer Engineering.
 The project requires the development of an application to manage the books, scientific articles, and magazines of a library, as well as their loan to members.
