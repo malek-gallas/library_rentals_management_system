@@ -160,10 +160,10 @@ DocumentsList* createDocument (DocumentsList *doc_list, int *doc_key){
             exit(EXIT_FAILURE);
             break;
         }
-    default:
+    /*default:
         printf ("Document Type scanf Error !");
         exit(EXIT_FAILURE);
-        break;
+        break;*/
     }
 ////////////////////////////////////////////////////////////////////////////////////////////////////
     check= 0;
@@ -243,8 +243,8 @@ void readDocumentsList (DocumentsList *doc_list){
     mvwprintw(table_pad, 1, 45, "Type");
     mvwprintw(table_pad, 1, 62, "Infos");
     mvwprintw(table_pad, 1, 95, "Current");
-    mvwprintw(table_pad, 1, 104, "Old");
-    mvwprintw(table_pad, 1, 113, "Total");
+    mvwprintw(table_pad, 1, 104, "Room");
+    mvwprintw(table_pad, 1, 113, "Department");
     // Print the table Data
     temp = doc_list;
     int row = 3;
@@ -269,8 +269,8 @@ void readDocumentsList (DocumentsList *doc_list){
             mvwprintw(table_pad, row, 62, "Published: %s", temp->document.freq);
         }
         mvwprintw(table_pad, row, 95, "%d", temp->document.current_rentals);
-        mvwprintw(table_pad, row, 104, "%d", temp->document.old_rentals);
-        mvwprintw(table_pad, row, 113, "%d", temp->document.total_rentals);
+        mvwprintw(table_pad, row, 104, "%d", temp->document.local.room);
+        mvwprintw(table_pad, row, 113, "%d", temp->document.local.department);
         row += 3;
         temp = temp->next;
     }
