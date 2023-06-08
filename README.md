@@ -35,7 +35,6 @@ The project requires the development of an application to manage the books, scie
       This project is distributed under the MIT License. See the LICENSE file for more information.
 
   Contact
-
-      Name: Malek_Gallas
-      Email: malek.gallas@outlook.com
+  
+      Email: malek.gallas.dev@gmail.com
       GitHub: /malek-gallas
